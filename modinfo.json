@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "consume_the_nut",
+    "name": "consume_the_nut",
+    "authors": [ "ERROR_CODE"],
+    "description": "Giving you a use for that half-ton of pine nuts.",
+    "category": "items",
+    "dependencies": [ "dda" ]
+  }
+]
