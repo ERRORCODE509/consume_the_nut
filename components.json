@@ -34,7 +34,7 @@
         [ "acorns_cooked", 1 ],
         [ "dry_lentils", 1 ],
         [ "raw_lentils", 1 ],
-		[ "pine_nut_meal", 1 ]
+	[ "pine_nut_meal", 1 ]
       ],
       [ [ "meat_red", 1, "LIST" ], [ "dry_meat", 1 ], [ "can_chicken", 1 ] ]
     ]
@@ -81,7 +81,7 @@
         [ "mushroom_cooked", 1 ],
         [ "morel_cooked", 1 ],
         [ "acorns_cooked", 1 ],
-		[ "pine_nut_meal", 1 ]
+	[ "pine_nut_meal", 1 ]
       ],
       [
         [ "fish", 2 ],
@@ -135,7 +135,7 @@
         [ "mushroom_cooked", 2 ],
         [ "morel_cooked", 2 ],
         [ "acorns_cooked", 2 ],
-		[ "pine_nut_meal", 2 ]
+	[ "pine_nut_meal", 2 ]
       ]
     ]
   },
@@ -170,9 +170,27 @@
         [ "raw_edamame", 1 ],
         [ "dry_lentils", 1 ],
         [ "raw_lentils", 1 ],
-		[ "pine_nut_meal", 1 ]
+	[ "pine_nut_meal", 1 ]
       ],
       [ [ "veggy_any", 1, "LIST" ] ]
     ]
-  }
+  },
+  {
+    "id": "milk_standard",
+    "type": "requirement",
+    "//": "Pasteurized milk, including reconstituted",
+    "components": [ [ [ "milk", 1 ], [ "milk_reconstituted", 1 ], [ "milk_UHT", 1 ], [ "pine_nut_milk", 1] ] ]
+  },
+  {
+    "id": "milk_standard_raw",
+    "type": "requirement",
+    "//": "Equivalent to milk_standard, with addition of raw milk for recipes using a heat source to kill microbes",
+    "components": [ [ [ "milk_standard", 1, "LIST" ], [ "milk_raw", 1 ], [ "pine_nut_milk", 1] ] ]
+  },
+  {
+    "id": "milk_standard_raw_fresh",
+    "type": "requirement",
+    "//": "Equivalent to milk_standard_raw, but without milk_reconstituted",
+    "components": [ [ [ "milk", 1 ], [ "milk_UHT", 1 ], [ "milk_raw", 1 ], [ "pine_nut_milk", 1] ] ]
+  },
 ]
