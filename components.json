@@ -192,5 +192,5 @@
     "type": "requirement",
     "//": "Equivalent to milk_standard_raw, but without milk_reconstituted",
     "components": [ [ [ "milk", 1 ], [ "milk_UHT", 1 ], [ "milk_raw", 1 ], [ "pine_nut_milk", 1] ] ]
-  },
+  }
 ]
